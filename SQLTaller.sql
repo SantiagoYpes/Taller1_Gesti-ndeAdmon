@@ -1,3 +1,8 @@
+--Integrantes
+--Santiago Sepúlveda Montoya
+--Santiago Adolfo Yepes Zuleta
+
+
 select * from [Sales].[Orders]
 --Punto 1
 select top(1) OrderDate, count(OrderDate) as total from [Sales].[Orders] 
